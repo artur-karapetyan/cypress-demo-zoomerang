@@ -1,0 +1,17 @@
+{
+  "pageElements": {
+    "title": "Sign in to Zoomerang",
+    "or": "or",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password",
+    "login": "Sign In",
+    "dontHaveAccount": "Don't have an account?Sign Up"
+  },
+  "invalidEmail": {
+    "email": "jonikjanik@gmail.com"
+  },
+  "incorrectLogin": {
+    "text": "User not found"
+  }
+}

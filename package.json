@@ -1,0 +1,11 @@
+{
+  "name": "cypress-demo-zoomerang",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Artur Karapetyan",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.8.1"
+  }
+}
