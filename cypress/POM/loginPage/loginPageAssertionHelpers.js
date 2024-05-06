@@ -28,4 +28,12 @@ export default {
   assertIncorrectLogin(text) {
     loginPage.elements.incorrectPassword().and("have.text", text);
   },
+
+  assertCorrectLogin() {
+    cy.wait(6000).then(() => {
+      cy.url().then((url) => {
+        expect(url).to.be.eq(Cypress.env("baseUrl"));
+      });
+    });
+  },
 };

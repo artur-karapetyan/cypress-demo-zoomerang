@@ -2,9 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://zoomerang.app",
+    baseUrl: "https://zoomerang.app/",
   },
   env: {
-    baseUrl: "https://zoomerang.app",
+    baseUrl: "https://zoomerang.app/",
   },
 });

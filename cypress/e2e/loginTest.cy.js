@@ -36,5 +36,15 @@ describe("Login Page Tests", () => {
         );
       });
     });
+
+    it("[POS] Login with valid credentials", () => {
+      homePage.navigateToLoginPage();
+
+      loginPage.enterEmail(Cypress.env("email"));
+      loginPage.enterPassword(Cypress.env("password"));
+      loginPage.clickOnLoginButton();
+
+      loginPageAssertionHelpers.assertCorrectLogin();
+    });
   });
 });
